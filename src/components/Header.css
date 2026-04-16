@@ -1,0 +1,17 @@
+.top-header {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.top-header-content {
+  text-align: center;
+}
+
+.shop-now-link {
+  font-weight: 600;
+  text-decoration: underline;
+  margin-left: 10px;
+  color: inherit;
+}
