@@ -370,3 +370,41 @@
   text-align: center;
   margin-top: 60px;
 }
+
+/* Swiper Custom Navigation */
+.swiper-nav-buttons {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.custom-nav-btn {
+  background: var(--bg-secondary);
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.custom-nav-btn:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.flash-sales-swiper, .category-swiper {
+  padding-bottom: 20px;
+}
+
+.flash-sales-swiper .product-card {
+  height: 100%;
+}
